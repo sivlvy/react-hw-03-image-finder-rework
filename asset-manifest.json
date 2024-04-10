@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-hw-03-image-finder-rework/static/css/main.5d2b263d.css",
+    "main.js": "/react-hw-03-image-finder-rework/static/js/main.b33ebd46.js",
+    "index.html": "/react-hw-03-image-finder-rework/index.html",
+    "main.5d2b263d.css.map": "/react-hw-03-image-finder-rework/static/css/main.5d2b263d.css.map",
+    "main.b33ebd46.js.map": "/react-hw-03-image-finder-rework/static/js/main.b33ebd46.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d2b263d.css",
+    "static/js/main.b33ebd46.js"
+  ]
+}
