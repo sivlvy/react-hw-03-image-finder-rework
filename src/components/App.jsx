@@ -1,4 +1,3 @@
-import Container from './Container/Container';
 import SearchBar from './SearchBar/SearchBar';
 import GalleryList from './GalleryList/GalleryList';
 import getImages from 'services/imageApi';

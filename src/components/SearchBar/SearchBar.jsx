@@ -1,4 +1,4 @@
-import { Formik, Form, Field } from 'formik';
+import { Formik } from 'formik';
 import { SearchBarr, Button, Formm, Input } from './SearchBar.styled';
 import { BiSearchAlt } from 'react-icons/bi';
 const initialValues = {
