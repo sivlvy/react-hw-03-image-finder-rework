@@ -25,7 +25,7 @@ export const App = () => {
 
 			try {
 				const { totalHits, hits } = await getImages(query, page);
-				setImages([...images, ...hits]);
+				setImages(prevImages => [...prevImages, ...hits]);
 				setStatus(
 					Math.ceil(totalHits / 12) <= page ? STATUS.PENDING : STATUS.RESOLVED
 				);
@@ -49,9 +49,10 @@ export const App = () => {
 			Notify.info('You have to write new keyword... Try again!');
 			return;
 		}
-		if (images.length === 0) {
-			Notify.info('Sorry cant find images');
-		}
+		
+		// if (images.length === 0) {
+		// 	Notify.info('Sorry cant find images');
+		// }
 		setQuery(value.trim());
 		setImages([]);
 		setPage(1);
